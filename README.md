@@ -1,7 +1,9 @@
-# ILLAE
-This is basic front-end setup by using React & Webpack 
+#ILLAE - landing page
+Using passport as authentication method
 
-Followed by this [instruction](https://robots.thoughtbot.com/setting-up-webpack-for-react-and-hot-module-replacement)
+##Deployment
+`node server.js` to run the page at `localhost:8080`
 
-To run on your local server, run <code>webpack-dev-server</code> and visit <code>http://localhost:8080</code>.
+##Signup 
+now you can use `/signup` to signup a new account to local session 
 

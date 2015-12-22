@@ -1,25 +1,37 @@
 {
   "name": "illae",
   "version": "1.0.0",
-  "description": "illae platform",
-  "main": "index.js",
-  "private": "true",
+  "description": "",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [
-    "illae"
-  ],
-  "author": "kelly an",
-  "license": "ISC",
-  "devDependencies": {
-    "babel-core": "^6.3.15",
-    "babel-loader": "^6.2.0",
-    "file-loader": "^0.8.5",
-    "webpack": "^1.12.9",
-    "webpack-dev-server": "^1.14.0"
+  "dependencies" : {
+    "express" : "~4.0.0",           
+    "ejs" : "~0.8.5",               
+    "mongoose" : "~3.8.1",          
+    "passport" : "~0.1.17",         
+    "passport-local" : "~0.1.6",    
+    "passport-facebook" : "~1.0.2", 
+    "passport-twitter" : "~1.0.2",  
+    "passport-google-oauth" : "~0.1.5",
+    "connect-flash" : "~0.1.1",     
+    "bcrypt-nodejs" : "latest",
+
+    "morgan": "~1.0.0",
+    "body-parser": "~1.0.0",
+    "cookie-parser": "~1.0.0",
+    "method-override": "~1.0.0",
+    "express-session": "~1.0.0"     
   },
-  "dependencies": {
-    "react": "^0.14.3"
-  }
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ilooklike/illae.git"
+  },
+  "author": "KellyAn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ilooklike/illae/issues"
+  },
+  "homepage": "https://github.com/ilooklike/illae#readme"
 }
