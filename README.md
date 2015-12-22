@@ -10,12 +10,12 @@ now you can use `/signup` to signup a new account to local session
 ##Screenshots
 - Landing page
 ![Image of landing page]
-(https://github.com/ilooklike/illae/tree/master/screenshots/mainscreen)
+(https://github.com/ilooklike/illae/blob/master/screenshots/mainscreen.png)
 
 - Signup page
 ![!Image of signup page]
-(https://github.com/ilooklike/illae/tree/master/screenshots/signup)
+(https://github.com/ilooklike/illae/blob/master/screenshots/signup.png)
 
 - Profile page
 ![!Image of profile page]
-(https://github.com/ilooklike/illae/tree/master/screenshots/profile)
+(https://github.com/ilooklike/illae/blob/master/screenshots/profile.png)
