@@ -7,3 +7,15 @@ Using passport as authentication method
 ##Signup 
 now you can use `/signup` to signup a new account to local session 
 
+##Screenshots
+- Landing page
+![Image of landing page]
+(https://github.com/ilooklike/illae/tree/master/screenshots/mainscreen)
+
+- Signup page
+![!Image of signup page]
+(https://github.com/ilooklike/illae/tree/master/screenshots/signup)
+
+- Profile page
+![!Image of profile page]
+(https://github.com/ilooklike/illae/tree/master/screenshots/profile)
