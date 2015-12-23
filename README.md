@@ -1,6 +1,23 @@
 #ILLAE - landing page
 Using passport as authentication method
 
+##Folder structure
+- app
+------ models
+---------- user.js  <!-- user model -->
+------ routes.js    <!-- all the routes for our application -->
+- config
+------ auth.js      <!-- will hold all our client secret keys (facebook, twitter, google) -->
+------ database.js  <!-- will hold our database connection settings -->
+------ passport.js  <!-- configuring the strategies for passport -->
+- views
+------ index.ejs    <!-- show home page with login links -->
+------ login.ejs    <!-- show login form (only needed for local login) -->
+------ signup.ejs   <!-- show signup form (only needed for local signup) -->
+------ profile.ejs  <!-- after a user logs in, they will see their profile -->
+- package.json      <!-- handle npm packages -->
+- server.js         <!-- setup application -->
+
 ##Deployment
 `node server.js` to run the page at `localhost:8080`
 
