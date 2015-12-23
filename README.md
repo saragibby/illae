@@ -36,3 +36,5 @@ now you can use `/signup` to signup a new account to local session
 - Profile page
 ![!Image of profile page]
 (https://github.com/ilooklike/illae/blob/master/screenshots/profile.png)
+![Image of using facebook login]
+(https://github.com/ilooklike/illae/blob/master/screenshots/facebook.png)
