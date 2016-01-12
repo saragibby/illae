@@ -45,6 +45,16 @@ module.exports = function(app, passport) {
 			failureRedirect : '/'
 		}));
 
+	// google route - route fore google authentication and login
+	app.get('/auth/google', passport.authenticate('google', { scope: 'email'}));
+
+	// handle the callback after google has authenticated the user
+	app.get('/auth/google/callback',
+		passport.authenticate('google', {
+			successRedirect : '/profile',
+			failureRedirect : '/'
+		}));
+
 	//logout
 	app.get('/logout', function(req, res) {
 		req.logout();
